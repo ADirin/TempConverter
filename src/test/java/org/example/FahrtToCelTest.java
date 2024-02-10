@@ -9,9 +9,9 @@ class FahrtToCelTest {
 
     @Test
     void convertFahr() {
-        float test = Math.round(FahrtToCel.convertFahr(20));
+        int test = (FahrtToCel.convertFahr(32));
 
-        assertEquals(-7.0, test);
+        assertEquals(0, test);
 
         }
 
