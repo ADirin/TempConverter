@@ -15,7 +15,7 @@ class FahrtToCelTest {
 
         }
 
-
+    @Test
     void convertCel(){
          int test= (FahrtToCel.convertCel(20));
          assertEquals(68,test);
