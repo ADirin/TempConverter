@@ -15,10 +15,18 @@ class FahrtToCelTest {
 
         }
 
+
+        // Add in the class demo
     @Test
     void convertCel(){
          int test= (FahrtToCel.convertCel(20));
          assertEquals(68,test);
     }
 
+    // Inclass exercise
+    @Test
+    void convertKel(){
+        int test= (FahrtToCel.kelvintoCel(273));
+        assertEquals(0,test);
+    }
     }

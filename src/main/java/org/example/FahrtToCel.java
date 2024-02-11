@@ -11,4 +11,7 @@ public class FahrtToCel {
 		return (int) ((c * 9.0 / 5.0) + 32);
 	}
 
+	public static int kelvintoCel(int kel){
+		return (int) (kel-273.15);
+	}
 }
