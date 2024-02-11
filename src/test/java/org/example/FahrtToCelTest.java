@@ -6,7 +6,7 @@ import static junit.framework.Assert.assertEquals;
 import static org.junit.jupiter.api.Assertions.*;
 
 class FahrtToCelTest {
-
+ // initial method
     @Test
     void convertFahr() {
         int test = (FahrtToCel.convertFahr(32));
