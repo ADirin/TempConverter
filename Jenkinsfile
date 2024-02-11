@@ -1,6 +1,7 @@
 pipeline {
     agent any
     environment {
+        PATH = "c:\\WINDOWS\\SYSTEMS32"
         GIT_CREDENTIALS = credentials('ADirin')
     }
     
