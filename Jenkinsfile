@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        PATH = "c:\\WINDOWS\\SYSTEMS32"
+        PATH = "${env.PATH};C:\\Windows\\System32" // Update the PATH to include the directory of cmd.exe
         GIT_CREDENTIALS = credentials('ADirin')
     }
     
