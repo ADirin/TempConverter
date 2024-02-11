@@ -12,12 +12,15 @@ pipeline {
             }
         }
         stage('Build') {
-    steps {
-        bat 'mvn clean install'
-    }
-}
+           steps {
+               bat 'mvn clean install'
+           }
+        }
         stage('Test') {
-           post {
+           steps{
+               bat 'mvn test'
+           }    
+            post {
                 success {
                     // Publish JUnit test results
                     junit '**/target/surefire-reports/TEST-*.xml'
