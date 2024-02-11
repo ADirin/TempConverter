@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="org.example.AppTest" time="0.009" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="org.example.AppTest" time="0.004" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.2.3"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -30,7 +30,7 @@
     <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.2\plugins\maven\lib\maven-event-listener.jar"/>
     <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.2\plugins\maven\lib\maven3\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\amirdi\Documents\JAVA\MYSQL\mysql-connector-j-8.0.31\mysql-connector-j-8.0.31.jar;W:\winhapro;C:\HashiCorp\Vagrant\bin;C:\Program Files\maven\apache-maven-3.9.0\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files\nodejs\;C:\minikube;C:\Program Files\Docker\Docker\resources\bin;C:\Users\amirdi\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\amirdi\AppData\Local\Programs\Python\Python311\;C:\Users\amirdi\Anaconda3;C:\Users\amirdi\Anaconda3\Library\mingw-w64\bin;C:\Users\amirdi\Anaconda3\Library\usr\bin;C:\Users\amirdi\Anaconda3\Library\bin;C:\Users\amirdi\Anaconda3\Scripts;C:\Users\amirdi\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\amirdi\AppData\Local\Programs\Python\Python310\;C:\Users\amirdi\AppData\Local\Microsoft\WindowsApps;C:\Users\amirdi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\amirdi\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm 2022.3.2\bin;C:\Users\amirdi\AppData\Local\gitkraken\bin;C:\Users\amirdi\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\amirdi\Documents\JAVA\MYSQL\mysql-connector-j-8.0.31\mysql-connector-j-8.0.31.jar;W:\winhapro;C:\HashiCorp\Vagrant\bin;C:\Program Files\maven\apache-maven-3.9.0\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files\nodejs\;C:\minikube;C:\Program Files\Docker\Docker\resources\bin;C:\Windows\System32;C:\Program Files\Java\jdk-19\bin;;."/>
     <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.2\plugins\maven\lib\maven3/conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="61.0"/>
@@ -45,7 +45,7 @@
     <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.3 deploy"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.3 test"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-17.0.4.1"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -61,5 +61,5 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="org.example.AppTest" name="testApp" time="0.009"/>
+  <testcase classname="org.example.AppTest" name="testApp" time="0.004"/>
 </testsuite>

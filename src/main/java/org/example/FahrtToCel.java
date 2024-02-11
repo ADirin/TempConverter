@@ -6,6 +6,7 @@ public class FahrtToCel {
 		return c;
 	}
 
+	//This method convert thr cel to fsh
 	public static int convertCel(int c){
 		return (int) ((c * 9.0 / 5.0) + 32);
 	}
