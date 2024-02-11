@@ -17,11 +17,6 @@ pipeline {
                 sh 'mvn test'
             }
         }
-        stage('Deploy') {
-            steps {
-                // Example deployment steps for deploying to a server or container
-               // sh 'ssh user@server "cd /path/to/deployment/directory && ./deploy.sh"'
-            }
-        }
+       
     }
 }
