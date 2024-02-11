@@ -1,5 +1,9 @@
 pipeline {
     agent any
+    environment {
+GIT_CREDENTIALS = credentials('ADirin')
+        
+    }
     
     stages {
         stage('Checkout') {
