@@ -17,8 +17,14 @@ pipeline {
     }
 }
         stage('Test') {
-            steps {
-                bat 'mvn test'
+           post {
+               success {
+                   //3 To report the the JACOCO in Jenkins
+                 // Publish JUnit test results
+                 // Generate JaCoCo code coverage report
+                    jacoco(execPattern: '**/target/jacoco.exec')
+                junit '**/target/surefire-reports/TEST-*.xml'
+               }
             }
         }
     }
