@@ -1,7 +1,6 @@
 pipeline {
     agent any
     environment {
-        PATH = "${tool 'SomeTool'}/bin:${env.PATH}"
         GIT_CREDENTIALS = credentials('ADirin')
     }
     
