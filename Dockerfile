@@ -14,7 +14,8 @@ COPY . /app/
 RUN mvn package
 
 # Run the main class (assuming your application has a main class)
-CMD ["java", "-jar", "target/FahToCel-1.0-SNAPSHOT.jar"]
+CMD ["java", "-jar", "target/interconversions.jar"]
+
 
 # to build: docker build -t javamvn .
 # To run: docker run --name javamvn1 javamvn
