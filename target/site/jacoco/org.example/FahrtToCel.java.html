@@ -14,5 +14,23 @@
 	public static int kelvintoCel(int kel){
 <span class="nc" id="L15">		return (int) (kel-273.15);</span>
 	}
+
+	public static void main(String [] args) {
+// Test convertFahr method
+<span class="nc" id="L20">		int fahrenheit = 212;</span>
+<span class="nc" id="L21">		int celsius = convertFahr(fahrenheit);</span>
+<span class="nc" id="L22">		System.out.println(fahrenheit + &quot; Fahrenheit is equal to &quot; + celsius + &quot; Celsius.&quot;);</span>
+
+		// Test convertCel method
+<span class="nc" id="L25">		int cel = 100;</span>
+<span class="nc" id="L26">		int fahr = convertCel(cel);</span>
+<span class="nc" id="L27">		System.out.println(cel + &quot; Celsius is equal to &quot; + fahr + &quot; Fahrenheit.&quot;);</span>
+
+		// Test kelvintoCel method
+<span class="nc" id="L30">		int kelvin = 273;</span>
+<span class="nc" id="L31">		int celsiusFromKelvin = kelvintoCel(kelvin);</span>
+<span class="nc" id="L32">		System.out.println(kelvin + &quot; Kelvin is equal to &quot; + celsiusFromKelvin + &quot; Celsius.&quot;);</span>
+
+<span class="nc" id="L34">	}</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

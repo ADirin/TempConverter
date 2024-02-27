@@ -29,4 +29,10 @@ class FahrtToCelTest {
         int test= (FahrtToCel.kelvintoCel(273));
         assertEquals(0,test);
     }
+
+    @Test
+    void convertKeltoFarTest() {
+        double test =Math.round(FahrtToCel.kelvinToFah(300.1));
+        assertEquals(59.0, test);
+    }
     }
