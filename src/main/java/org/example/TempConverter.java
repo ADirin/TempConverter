@@ -15,7 +15,9 @@ public class TempConverter {
 		return (int) (kel-273.15);
 	}
 
-	public static  double	kelvinToFah(double kel) {return Math.round((kel-273.15)* (9/5) + 32); }
+	public static  double	kelvinToFah(double kel) {
+		return Math.round((kel-273.15)* (9/5) + 32);
+	}
 
 	public static void main(String [] args) {
 // Test convertFahr method
